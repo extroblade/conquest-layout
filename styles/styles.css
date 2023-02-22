@@ -15,8 +15,8 @@ body {
 
 .ellipse {
   position: absolute;
-  bottom: 9vw;
-  left: 43vw;
+  bottom: 9%;
+  left: 40vw;
   display: flex;
   width: 450px;
   aspect-ratio: 0.5;
