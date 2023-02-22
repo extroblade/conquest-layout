@@ -1,4 +1,5 @@
 
+
 //-----------------vars------------------
     
     
@@ -9,9 +10,9 @@ $transparent: rgba(0, 0, 0, 0)
 $gradient: linear-gradient(90deg, $transparent  , #EAE3D4)
 
 
-
 //-----------------commons------------------
     
+
 *
     padding: 0
     margin: 0
@@ -45,6 +46,7 @@ body
     aspect-ratio: 1
     border: 1px solid transparent
 
+
 h3
     font-weight: 400
     font-size: 32px
@@ -55,6 +57,7 @@ h2
     font-weight: 400
     font-size: 4.5em
     line-height: 60px
+
 
 p
     font-family: 'Roboto', sans-serif
@@ -89,8 +92,10 @@ p
     letter-spacing: 0.05em
     text-transform: uppercase
 
+
 //-----------------header------------------
 
+    
 .header
     background-color: $gray
     position: relative
@@ -106,6 +111,7 @@ p
         font-size: 12px
         line-height: 16px
         letter-spacing: 0.14em
+
     &__links
         ul
             list-style-type: none
@@ -154,6 +160,7 @@ p
     .nav
         margin-bottom: 100px
 
+
 @media (max-width: 992px)
     .header
         padding: 0 40px
@@ -181,8 +188,6 @@ p
             width: 100px
             display: flex
             
-
-
 
 //-----------------main------------------
 
@@ -226,6 +231,7 @@ main
         margin: 0 10px
         height: 0px
         border: 0.5px solid #8B8371
+
 
 .frame
     p
@@ -280,6 +286,7 @@ main
         margin: 0 80px
         padding: 0 80px
 
+
 @media (max-width: 767px)
     .ellipse
         width: 80vw
@@ -325,6 +332,7 @@ main
 
 //----------------second-screen----------------
 
+
 .second-screen
     position: relative
     z-index: 2
@@ -350,10 +358,12 @@ main
         text-decoration: underline #C4C0B6 2px
         text-underline-offset: 11px  
 
+
 .items
     margin-top: 38px
     display: flex
     justify-content: space-between
+
 
 .item
     display: flex
@@ -390,9 +400,11 @@ main
         margin-top: 10vw
         padding: 0 120px
 
+
 @media (max-width: 992px)
     .second-screen
         padding: 0 80px
+
 
 @media (max-width: 767px)
     .second-screen
@@ -419,10 +431,8 @@ main
             text-align: center
 
         
- 
-
-
 //----------------banner----------------
+
 
 .banner
     position: relative
@@ -453,7 +463,8 @@ main
             left: 90vw
             width: 744.38px
             height: 744.38px
-            
+
+
 .ring   
     position: absolute
     z-index: 2
@@ -491,6 +502,7 @@ main
         .btn
             background-color: $accent
 
+
 .slider
     position: relative
     margin: 15px 0
@@ -522,14 +534,15 @@ main
 .right 
     transform: rotate(-45deg)
 
+
 .left
     transform: rotate(135deg)
-
 
 
 @media (max-width: 1200px)
     .banner
         margin: 3px
+
 
 @media (max-width: 992px)
 
@@ -549,6 +562,7 @@ main
             justify-content: center
     .rings
         display: none
+
 
 @media (max-width: 767px)
     .banner
@@ -585,6 +599,7 @@ main
     flex-direction: row
     justify-content: space-around
 
+
 .content__text
     position: relative
     margin: 0 70px
@@ -609,7 +624,6 @@ main
         font-size: 1.6em
         line-height: 27px
 
-    
     .link__logo
         margin: 9px
     .logos
@@ -626,31 +640,42 @@ main
         width: 100%
         height: 100%    
         object-fit: cover
+
+
 .item-1
     grid-column-start: 1
     grid-column-end: 3
     grid-row-start: 1
     grid-row-end: 4
+
+
 .item-2
     grid-column-start: 1
     grid-column-end: 3
     grid-row-start: 4
     grid-row-end: 7
 
+
 .item-3
     grid-column-start: 3
     grid-column-end: 6
     grid-row-start: 1
     grid-row-end: 7
+
+
 @media (max-width: 1200px)
     .third-screen
         .content__text
             bottom: 10px
             article
                 margin-top: 100px
+
+
 @media (max-width: 992px)
     .third-screen
         bottom: 30px
+
+
 @media (max-width: 767px)
     .third-screen
         flex-direction: column
@@ -702,10 +727,12 @@ main
     .footer
         padding: 0 120px
 
+
 @media (max-width: 992px)
     .footer
         padding: 0 80px
 
+    
 @media (max-width: 767px)
     .footer
         padding-bottom: 0px
