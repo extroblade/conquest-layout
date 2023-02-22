@@ -339,7 +339,7 @@ main {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 126px;
+  margin-bottom: 70px;
 }
 .second-screen .items {
   display: flex;
@@ -447,6 +447,7 @@ main {
   flex-direction: row;
   justify-content: space-around;
   padding: 0 10vw;
+  padding-top: 60px;
 }
 .banner__images {
   display: flex;
