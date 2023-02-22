@@ -10,28 +10,28 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <a href="#" class="link__logo">
-                <div class="header__logo">
+            
+            <div class="header__logo">
+                <a href="#" class="link">
                     <img src="static/conquest.png" alt="">
-                    <p>сonquest</p>
-                </div>
-            </a>
-            <div class="header__links">
-                <ul>
-                    <li>
-                        <a href="#" class="header__links link">Каталог</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header__links link">Акции</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header__links link">Доставка</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header__links link">Контакты</a>
-                    </li>
-                </ul>
+                    <p>сonquest</p> 
+                </a>
             </div>
+
+            <ul class="header__menu">
+                <li>
+                    <a href="#" class="header__links link">Каталог</a>
+                </li>
+                <li>
+                    <a href="#" class="header__links link">Акции</a>
+                </li>
+                <li>
+                    <a href="#" class="header__links link">Доставка</a>
+                </li>
+                <li>
+                    <a href="#" class="header__links link">Контакты</a>
+                </li>
+            </ul>
 
             <div class="header__btns">
                 <a href="#" class="header__btns icon__btn">
@@ -51,35 +51,33 @@
     <main>
         <div class="first-screen">
             <div class="ellipse"></div>
-            <article>
-                <div class="line "></div>
+            <article class="article">
+                <div class="line"></div>
                 <h2> Весна/Лето 2019</h2>
-                <h3>Коллекция</h3>
-                <p>
+                <h3 >Коллекция</h3>
+                <p class="description">
                     Швейцарские часы в наличии в Москве 
                     и с доставкой по всему миру
                 </p>
                 <btn href="#" class="btn">Смотреть каталог</btn>
             </article>
             
-            <div class="main__watch">
-                <div class="frame">
-                    <div class="frame__line first">
-                        <div class="frame__line first__inner">
-                            <p>22 000 &#8381;</p>
-                            <div class="line"></div>
-                        </div>
+            <div class="main-watch">
+                <div class="note left">
+                    <div class="note__content">
+                        <p>22 000 &#8381;</p> 
+                        <div class="line"></div>
                     </div>
-                    
-                    <img src="static/watch_main.png" class="img" alt="watch">
-                    
-                    <div class="frame__line second">
-                        <div class="frame__line second__inner">
-                            <div class="line"></div>
-                            <p>28 мм диаметр</p>
-                        
-                        </div>
+                </div>
+
+                <img src="static/watch_main.png" class="img" alt="watch">
+                
+                <div class="note right">
+                    <div class="note__content">
+                        <div class="line"></div>
+                        <p>28 мм диаметр</p>
                     </div>
+                </div>
                 </div>
             </div>
             
@@ -88,7 +86,6 @@
         <div class="second-screen">
             <h3>Популярные модели</h3>
             <div class="models">
-                
                 <a href="#" class="link all">Смотреть все</a>
                 <div class="items">
                     <div class="item">
@@ -129,8 +126,7 @@
                 <div class="ring first"></div>
                 <div class="ring second"></div>
             </div>
-            
-
+        
             <div class="banner__images">
                 <img src="static/photo_banner.jpg" alt="watch">
                 <div class="slider">
@@ -139,35 +135,34 @@
                     <button class="slider__btn"> <i class="arrow right"> </i></button>
                 </div>
             </div>
+            
             <div class="main__content">
-                <article>
+                <article class="article">
                     <h3>Подлинное качество</h3>
                     <p>
                         Все часы производятся в Швейцарии и имеют сертификаты качества. Настоящие швейцарские часы — это предмет гордости и престижа.
                     </p>
                     <a href="#" class="btn">Смотреть каталог</a>
                 </article>
-                
-            </div>
-            
+            </div> 
         </div>
 
         <div class="third-screen">
             <div class="content__text">
-                <article>
+                <div class="empty"></div>
+                <article class="article">
                     <h3>Следите за нашими новостями</h3>
                     <p>Подписывайтесь на <b>@conquest_watch</b> в соцсетях и узнавайте о новинках и акциях первыми.</p>
                 </article>
 
-
                 <div class="logos">
-                    <a href="#" target="_blank" class="link__logo">
+                    <a href="#" target="_blank" class="link">
                         <img src="static/instagram_icon.svg" alt="instagram">
                     </a>
-                    <a href="#" target="_blank" class="link__logo">
+                    <a href="#" target="_blank" class="link">
                         <img src="static/facebook_icon.svg" alt="facebook">
                     </a>
-                    <a href="#" target="_blank" class="link__logo">
+                    <a href="#" target="_blank" class="link">
                         <img src="static/twitter_icon.svg" alt="twitter">
                     </a>
                 </div>
@@ -184,7 +179,7 @@
 
     <footer class="footer">
         <div class="footer__info">
-            <a href="#" class="link__logo">
+            <a href="#" class="link">
                 <div class="footer__logo">
                     <img src="static/conquest.svg" alt="">
                     <p class="footer__text">сonquest</p>
