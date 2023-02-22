@@ -1,4 +1,4 @@
-# CONQUEST layout
+# CONQUEST
 
 ---
 
